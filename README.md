@@ -13,7 +13,7 @@ def hello_world():
     return "<p>Hello, World!</p>"
 @app.route("/<name>")
 def user(name):
-    return f"Hell {name}!"
+    return f"Hello {name}!"
     
 if __name__=="__main__":
      app.run()
